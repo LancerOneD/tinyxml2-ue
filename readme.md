@@ -3,7 +3,7 @@ TinyXML-2
 
 NOTE _ this is a version intended to replace use in Cesium to fix packaging issue inside Unreal Engine.  Do not use otherwise.
 
-[![Test](https://github.com/leethomason/tinyxml2/actions/workflows/test.yml/badge.svg)](https://github.com/leethomason/tinyxml2/actions/workflows/test.yml)
+[![Test](https://github.com/LancerOneD/tinyxml2-ue/actions/workflows/test.yml/badge.svg)](https://https://github.com/LancerOneD/tinyxml2-ue/actions/workflows/test.yml)
 
 TinyXML-2 is a simple, small, efficient, C++ XML parser that can be
 easily integrated into other programs.
