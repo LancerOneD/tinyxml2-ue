@@ -21,7 +21,7 @@
 	#include <sys/types.h>
 #endif
 
-using namespace tinyxml2;
+using namespace tinyxml2_ue;
 using namespace std;
 int gPass = 0;
 int gFail = 0;
