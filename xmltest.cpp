@@ -2255,8 +2255,8 @@ int main( int argc, const char ** argv )
 
     {
         // If this doesn't assert in TINYXML2_DEBUG, all is well.
-        tinyxml2::XMLDocument doc;
-        tinyxml2::XMLElement *pRoot = doc.NewElement("Root");
+        tinyxml2_ue::XMLDocument doc;
+        tinyxml2_ue::XMLElement *pRoot = doc.NewElement("Root");
         doc.DeleteNode(pRoot);
     }
 
@@ -2507,7 +2507,7 @@ int main( int argc, const char ** argv )
 			XMLTest("Crash bug parsing", true, blank == 0);
 		}
 
-		tinyxml2::XMLPrinter printer;
+		tinyxml2_ue::XMLPrinter printer;
 		const bool acceptResult = playlist->Accept(&printer);
 		XMLTest("Crash bug parsing - Accept()", true, acceptResult);
 		printf("%s\n", printer.CStr());
